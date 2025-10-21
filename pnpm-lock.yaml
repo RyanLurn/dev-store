@@ -18,6 +18,9 @@ importers:
         specifier: 19.2.0
         version: 19.2.0(react@19.2.0)
     devDependencies:
+      '@biomejs/biome':
+        specifier: 2.2.6
+        version: 2.2.6
       '@tailwindcss/postcss':
         specifier: ^4.1.15
         version: 4.1.15
@@ -30,6 +33,9 @@ importers:
       '@types/react-dom':
         specifier: ^19.2.2
         version: 19.2.2(@types/react@19.2.2)
+      lefthook:
+        specifier: ^2.0.0
+        version: 2.0.0
       tailwindcss:
         specifier: ^4.1.15
         version: 4.1.15
@@ -42,6 +48,59 @@ packages:
   '@alloc/quick-lru@5.2.0':
     resolution: {integrity: sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw==}
     engines: {node: '>=10'}
+
+  '@biomejs/biome@2.2.6':
+    resolution: {integrity: sha512-yKTCNGhek0rL5OEW1jbLeZX8LHaM8yk7+3JRGv08my+gkpmtb5dDE+54r2ZjZx0ediFEn1pYBOJSmOdDP9xtFw==}
+    engines: {node: '>=14.21.3'}
+    hasBin: true
+
+  '@biomejs/cli-darwin-arm64@2.2.6':
+    resolution: {integrity: sha512-UZPmn3M45CjTYulgcrFJFZv7YmK3pTxTJDrFYlNElT2FNnkkX4fsxjExTSMeWKQYoZjvekpH5cvrYZZlWu3yfA==}
+    engines: {node: '>=14.21.3'}
+    cpu: [arm64]
+    os: [darwin]
+
+  '@biomejs/cli-darwin-x64@2.2.6':
+    resolution: {integrity: sha512-HOUIquhHVgh/jvxyClpwlpl/oeMqntlteL89YqjuFDiZ091P0vhHccwz+8muu3nTyHWM5FQslt+4Jdcd67+xWQ==}
+    engines: {node: '>=14.21.3'}
+    cpu: [x64]
+    os: [darwin]
+
+  '@biomejs/cli-linux-arm64-musl@2.2.6':
+    resolution: {integrity: sha512-TjCenQq3N6g1C+5UT3jE1bIiJb5MWQvulpUngTIpFsL4StVAUXucWD0SL9MCW89Tm6awWfeXBbZBAhJwjyFbRQ==}
+    engines: {node: '>=14.21.3'}
+    cpu: [arm64]
+    os: [linux]
+
+  '@biomejs/cli-linux-arm64@2.2.6':
+    resolution: {integrity: sha512-BpGtuMJGN+o8pQjvYsUKZ+4JEErxdSmcRD/JG3mXoWc6zrcA7OkuyGFN1mDggO0Q1n7qXxo/PcupHk8gzijt5g==}
+    engines: {node: '>=14.21.3'}
+    cpu: [arm64]
+    os: [linux]
+
+  '@biomejs/cli-linux-x64-musl@2.2.6':
+    resolution: {integrity: sha512-1ZcBux8zVM3JhWN2ZCPaYf0+ogxXG316uaoXJdgoPZcdK/rmRcRY7PqHdAos2ExzvjIdvhQp72UcveI98hgOog==}
+    engines: {node: '>=14.21.3'}
+    cpu: [x64]
+    os: [linux]
+
+  '@biomejs/cli-linux-x64@2.2.6':
+    resolution: {integrity: sha512-1HaM/dpI/1Z68zp8ZdT6EiBq+/O/z97a2AiHMl+VAdv5/ELckFt9EvRb8hDHpk8hUMoz03gXkC7VPXOVtU7faA==}
+    engines: {node: '>=14.21.3'}
+    cpu: [x64]
+    os: [linux]
+
+  '@biomejs/cli-win32-arm64@2.2.6':
+    resolution: {integrity: sha512-h3A88G8PGM1ryTeZyLlSdfC/gz3e95EJw9BZmA6Po412DRqwqPBa2Y9U+4ZSGUAXCsnSQE00jLV8Pyrh0d+jQw==}
+    engines: {node: '>=14.21.3'}
+    cpu: [arm64]
+    os: [win32]
+
+  '@biomejs/cli-win32-x64@2.2.6':
+    resolution: {integrity: sha512-yx0CqeOhPjYQ5ZXgPfu8QYkgBhVJyvWe36as7jRuPrKPO5ylVDfwVtPQ+K/mooNTADW0IhxOZm3aPu16dP8yNQ==}
+    engines: {node: '>=14.21.3'}
+    cpu: [x64]
+    os: [win32]
 
   '@emnapi/runtime@1.6.0':
     resolution: {integrity: sha512-obtUmAHTMjll499P+D9A3axeJFlhdjOWdKUNs/U6QIGT7V5RjcUW1xToAzjvmgTSQhDbYn/NwfTRoJcQ2rNBxA==}
@@ -365,6 +424,60 @@ packages:
     resolution: {integrity: sha512-ekilCSN1jwRvIbgeg/57YFh8qQDNbwDb9xT/qu2DAHbFFZUicIl4ygVaAvzveMhMVr3LnpSKTNnwt8PoOfmKhQ==}
     hasBin: true
 
+  lefthook-darwin-arm64@2.0.0:
+    resolution: {integrity: sha512-0p614LKJA1XZjw1m8WA0emK5kDDHwpiVzNWQBwM/kyY9dxDOV1ixRqm36J0fpshaoSFcwucma5xA3HTK1A23Dg==}
+    cpu: [arm64]
+    os: [darwin]
+
+  lefthook-darwin-x64@2.0.0:
+    resolution: {integrity: sha512-IcixMsdUijl/NyKHapqA/MtNrrtm/WjhezikWSzCJc1dPy+aE8PYeZoBzNFIJJgB6zavO+sUxam10Zx/70AUHw==}
+    cpu: [x64]
+    os: [darwin]
+
+  lefthook-freebsd-arm64@2.0.0:
+    resolution: {integrity: sha512-APWEKechR2Gp5/rcf7QLkVqswShesnBZrMGmBnFh/nAtvWkkPVdBEc0VDFlU+ViUqHFepuQOSZD/G68F6NVStg==}
+    cpu: [arm64]
+    os: [freebsd]
+
+  lefthook-freebsd-x64@2.0.0:
+    resolution: {integrity: sha512-J7F/zKBgx5gJm2/EgKxqckzJRPaIHGZnKUY2h9MeKr4LBMk5kt+hwH9OeokGvGvPzLE4rEdUoFhJnmceyY4ZsA==}
+    cpu: [x64]
+    os: [freebsd]
+
+  lefthook-linux-arm64@2.0.0:
+    resolution: {integrity: sha512-Olilio7szMSFkfYFf7vW+JltTOpq4ZFgvqQ+nKv4NKrKH55Ax+JmK69j/VvJ/8vgks55mMQmfCuukbt2PjeG3Q==}
+    cpu: [arm64]
+    os: [linux]
+
+  lefthook-linux-x64@2.0.0:
+    resolution: {integrity: sha512-QOMRJ1paWjjTPPrGy8gf+8hmtXa3m63rOUeJUQo3N1xUL94NkKtqOCKz1qSmMuYW00clTGM27HdujNE+CSy5Iw==}
+    cpu: [x64]
+    os: [linux]
+
+  lefthook-openbsd-arm64@2.0.0:
+    resolution: {integrity: sha512-o99K0OuYgb4SfsqQQUwuxiAfgHhAnA/9eBDFVdUhGO69y7HenyXwaE52iaRiP64KH8TKMGJe+hiztmBrwOM5nA==}
+    cpu: [arm64]
+    os: [openbsd]
+
+  lefthook-openbsd-x64@2.0.0:
+    resolution: {integrity: sha512-hKFieYnE1V+EWgh5eBo/5Aj+TaYOal3lJ39OO/c61MZVbD6iOaQpZVAaQWmiVUo8p1bOK+0OjeeYfEF1OJ5IAg==}
+    cpu: [x64]
+    os: [openbsd]
+
+  lefthook-windows-arm64@2.0.0:
+    resolution: {integrity: sha512-Xzyr83kFVzjbRNzDMmlU1z5wtPXKWriPrRf3vwoVdsvHi/yvxNy9+ZH1LF0wXnH5agTgMMag/37XA+hZ/5cfmA==}
+    cpu: [arm64]
+    os: [win32]
+
+  lefthook-windows-x64@2.0.0:
+    resolution: {integrity: sha512-r8p2nMht/gAgZHqNdysUAyealFOyozbI1W+fU/L4thFdZzWGVesP+Vd0hvvS1MDwTxbGkqP7vCvCurll64vggg==}
+    cpu: [x64]
+    os: [win32]
+
+  lefthook@2.0.0:
+    resolution: {integrity: sha512-iR7cwnlojpRW/ixaE9d8lGSp+Twv2Sbg/1rlWX8WL/J1sn9xWcII8ddeBaY+6n6bWVPYBQfxc5uhd77efGzUfA==}
+    hasBin: true
+
   lightningcss-android-arm64@1.30.2:
     resolution: {integrity: sha512-BH9sEdOCahSgmkVhBLeU7Hc9DWeZ1Eb6wNS6Da8igvUwAe0sqROHddIlvU06q3WyXVEOYDZ6ykBZQnjTbmo4+A==}
     engines: {node: '>= 12.0.0'}
@@ -534,6 +647,41 @@ packages:
 snapshots:
 
   '@alloc/quick-lru@5.2.0': {}
+
+  '@biomejs/biome@2.2.6':
+    optionalDependencies:
+      '@biomejs/cli-darwin-arm64': 2.2.6
+      '@biomejs/cli-darwin-x64': 2.2.6
+      '@biomejs/cli-linux-arm64': 2.2.6
+      '@biomejs/cli-linux-arm64-musl': 2.2.6
+      '@biomejs/cli-linux-x64': 2.2.6
+      '@biomejs/cli-linux-x64-musl': 2.2.6
+      '@biomejs/cli-win32-arm64': 2.2.6
+      '@biomejs/cli-win32-x64': 2.2.6
+
+  '@biomejs/cli-darwin-arm64@2.2.6':
+    optional: true
+
+  '@biomejs/cli-darwin-x64@2.2.6':
+    optional: true
+
+  '@biomejs/cli-linux-arm64-musl@2.2.6':
+    optional: true
+
+  '@biomejs/cli-linux-arm64@2.2.6':
+    optional: true
+
+  '@biomejs/cli-linux-x64-musl@2.2.6':
+    optional: true
+
+  '@biomejs/cli-linux-x64@2.2.6':
+    optional: true
+
+  '@biomejs/cli-win32-arm64@2.2.6':
+    optional: true
+
+  '@biomejs/cli-win32-x64@2.2.6':
+    optional: true
 
   '@emnapi/runtime@1.6.0':
     dependencies:
@@ -775,6 +923,49 @@ snapshots:
   graceful-fs@4.2.11: {}
 
   jiti@2.6.1: {}
+
+  lefthook-darwin-arm64@2.0.0:
+    optional: true
+
+  lefthook-darwin-x64@2.0.0:
+    optional: true
+
+  lefthook-freebsd-arm64@2.0.0:
+    optional: true
+
+  lefthook-freebsd-x64@2.0.0:
+    optional: true
+
+  lefthook-linux-arm64@2.0.0:
+    optional: true
+
+  lefthook-linux-x64@2.0.0:
+    optional: true
+
+  lefthook-openbsd-arm64@2.0.0:
+    optional: true
+
+  lefthook-openbsd-x64@2.0.0:
+    optional: true
+
+  lefthook-windows-arm64@2.0.0:
+    optional: true
+
+  lefthook-windows-x64@2.0.0:
+    optional: true
+
+  lefthook@2.0.0:
+    optionalDependencies:
+      lefthook-darwin-arm64: 2.0.0
+      lefthook-darwin-x64: 2.0.0
+      lefthook-freebsd-arm64: 2.0.0
+      lefthook-freebsd-x64: 2.0.0
+      lefthook-linux-arm64: 2.0.0
+      lefthook-linux-x64: 2.0.0
+      lefthook-openbsd-arm64: 2.0.0
+      lefthook-openbsd-x64: 2.0.0
+      lefthook-windows-arm64: 2.0.0
+      lefthook-windows-x64: 2.0.0
 
   lightningcss-android-arm64@1.30.2:
     optional: true
