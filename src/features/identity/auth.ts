@@ -8,6 +8,7 @@ const auth = betterAuth({
   baseURL: serverEnvVars.AUTH_URL,
   database: drizzleAdapter(db, {
     provider: "pg",
+    usePlural: true,
   }),
 });
 
