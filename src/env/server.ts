@@ -3,8 +3,8 @@ import * as z from "zod";
 
 const serverEnvVars = createEnv({
   server: {
-    DATABASE_DIRECT_CONNECTION_STRING: z.string().min(1),
-    DATABASE_POOLED_CONNECTION_STRING: z.string().min(1),
+    DATABASE_SESSION_POOLER_CONNECTION_STRING: z.string().min(1),
+    DATABASE_TRANSACTION_POOLER_CONNECTION_STRING: z.string().min(1),
     AUTH_SECRET: z.string().min(1),
     AUTH_URL: z.url(),
   },
